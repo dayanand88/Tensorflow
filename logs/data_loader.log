@@ -1,0 +1,22 @@
+2024-07-21 22:46:39,286 - DataLoaderLogger - INFO - DataLoader initialized with dataset directory: C:\Study\Computer Vision\tensorflow\Tutorial\Tensorflow\dataset
+2024-07-21 22:46:39,286 - DataLoaderLogger - ERROR - Error preparing train dataset: [WinError 3] The system cannot find the path specified: 'C:\\Study\\Computer Vision\\tensorflow\\Tutorial\\Tensorflow\\dataset\\train\\images'
+2024-07-21 22:48:05,616 - DataLoaderLogger - INFO - DataLoader initialized with dataset directory: C:/Projects/ObjectDetection/safety construction/dataset
+2024-07-21 22:48:05,621 - DataLoaderLogger - INFO - Loaded 2603 images and 2603 labels from train dataset.
+2024-07-21 22:48:06,006 - tensorflow - WARNING - AutoGraph could not transform <function normcase at 0x000002444D79C5E0> and will run it as-is.
+Cause: Unable to locate the source code of <function normcase at 0x000002444D79C5E0>. Note that functions defined in certain environments, like the interactive Python shell, do not expose their source code. If that is the case, you should define them in a .py source file. If you are certain the code is graph-compatible, wrap the call using @tf.autograph.experimental.do_not_convert. Original error: could not get source code
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+2024-07-21 22:48:06,558 - tensorflow - WARNING - AutoGraph could not transform <bound method PercentStyle._format of <logging.PercentStyle object at 0x000002444D862C90>> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: 'NoneType' object has no attribute '_fields'
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+2024-07-21 22:48:06,065 - DataLoaderLogger - INFO - Successfully parsed Tensor("args_0:0", shape=(), dtype=string) and Tensor("args_1:0", shape=(), dtype=string)
+2024-07-21 22:48:06,614 - DataLoaderLogger - INFO - train dataset prepared and batched.
+2024-07-21 22:48:06,615 - DataLoaderLogger - INFO - Loaded 114 images and 114 labels from valid dataset.
+2024-07-21 22:48:06,621 - DataLoaderLogger - INFO - Successfully parsed Tensor("args_0:0", shape=(), dtype=string) and Tensor("args_1:0", shape=(), dtype=string)
+2024-07-21 22:48:06,627 - DataLoaderLogger - INFO - valid dataset prepared and batched.
+2024-07-21 22:48:06,627 - DataLoaderLogger - INFO - Loaded 82 images and 82 labels from test dataset.
+2024-07-21 22:48:06,627 - DataLoaderLogger - INFO - Successfully parsed Tensor("args_0:0", shape=(), dtype=string) and Tensor("args_1:0", shape=(), dtype=string)
+2024-07-21 22:48:06,642 - DataLoaderLogger - INFO - test dataset prepared and batched.
+2024-07-21 22:48:08,730 - DataLoaderLogger - INFO - Counted 2603 labels from train dataset.
+2024-07-21 22:48:08,730 - DataLoaderLogger - INFO - Counted 114 labels from valid dataset.
+2024-07-21 22:48:08,730 - DataLoaderLogger - INFO - Counted 82 labels from test dataset.
